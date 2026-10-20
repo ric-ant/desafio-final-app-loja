@@ -77,6 +77,7 @@ Ao iniciar, o seguinte menu é exibido:
 3 - Produtos e preços agrupados por categoria
 4 - Contagem de pedidos por status
 5 - Produtos por pedido
+6 - Pedidos por cliente
 0 - Sair
 ```
 
@@ -99,6 +100,10 @@ Apresenta um submenu para escolher o status (`pago`, `pendente`, `enviado` ou `c
 ### Opção 5 — Produtos por pedido
 
 Lista os pedidos disponíveis e, após o usuário informar um ID, exibe todos os produtos daquele pedido com quantidade, preço unitário e subtotal.
+
+### Opção 6 — Pedidos por cliente
+
+Consulta a view `vw_pedidos_por_cliente` (definida em `schema.sql`), que cruza as tabelas `clientes` e `pedidos`. Exibe uma tabela com os campos: ID do cliente, nome, sobrenome, cidade, ID do pedido, data do pedido e valor total.
 
 ---
 
