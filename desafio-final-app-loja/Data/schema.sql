@@ -98,6 +98,21 @@ BEGIN
     WHERE id = OLD.pedido_id;
 END;
 
+-- Pedidos por cliente: dados do cliente junto com cada pedido realizado.
+CREATE VIEW IF NOT EXISTS vw_pedidos_por_cliente AS
+SELECT
+    c.id          AS cliente_id,
+    c.nome        AS nome,
+    c.sobrenome   AS sobrenome,
+    c.cidade      AS cidade,
+    p.id          AS pedido_id,
+    p.cliente_id  AS pedido_cliente_id,
+    p.data_pedido AS data_pedido,
+    p.valor_total AS valor_total
+FROM clientes AS c
+JOIN pedidos AS p ON p.cliente_id = c.id
+ORDER BY c.id, p.data_pedido;
+
 -- Resumo dos pedidos com a contagem de linhas de itens, inclusive pedidos sem itens.
 CREATE VIEW IF NOT EXISTS vw_resumo_pedidos AS
 SELECT
