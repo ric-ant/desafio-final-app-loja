@@ -27,6 +27,7 @@ desafio-final-app-loja/
 │   ├── queries.py       # Funções de consulta SQL
 │   └── main.py          # Menu interativo (ponto de entrada)
 ├── .gitignore           # Arquivos ignorados pelo Git
+├── requirements.txt     # Dependências do projeto
 └── README.md            # Documentação do projeto
 ```
 
