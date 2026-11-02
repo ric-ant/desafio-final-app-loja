@@ -17,6 +17,7 @@ O sistema permite consultar informações da loja diretamente pelo terminal: REL
 
 
  O banco de dados é criado e populado automaticamente na primeira execução, sem necessidade de configuração manual.
+O sistema permite consultar informações da loja diretamente pelo terminal: preços, estoque, pedidos e itens por pedido. O banco de dados é criado e populado automaticamente na primeira execução, sem necessidade de configuração manual.
 
 ### Tecnologias
 
