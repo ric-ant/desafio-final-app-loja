@@ -1,0 +1,8 @@
+# Python >= 3.13
+# Este projeto usa apenas módulos da biblioteca padrão do Python.
+# Nenhuma dependência externa é necessária.
+#
+# Módulos utilizados:
+#   sqlite3  - banco de dados embutido no Python
+#   pathlib  - manipulação de caminhos de arquivos
+#   sys      - acesso a argumentos e saída do sistema
