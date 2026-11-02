@@ -1,4 +1,0 @@
-
-#projeto usa apenas sqlite3, pathlib e sys, 
-#que são todos da biblioteca padrão do Python e não precisam ser instalados.
-
