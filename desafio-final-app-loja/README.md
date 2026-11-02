@@ -6,6 +6,17 @@ Aplicação de linha de comando que simula os relatórios de uma pequena loja vi
 
 ## Sobre o projeto
 
+O sistema permite consultar informações da loja diretamente pelo terminal: RELATÓRIOS: 
+
+1- MEDIA DE PREÇO DOS PRODUTO
+2- SALDO TOTAL DO ESTOQUE
+3- PRODUTOS E PREÇOS AGRUPADOS POR CATEGORIA
+4- CONTAGEM DE PEDIDOS POR STATUS
+5- PRODUTOS POR PEDIDO
+6- PEDIDOS POR CLIENTE
+
+
+ O banco de dados é criado e populado automaticamente na primeira execução, sem necessidade de configuração manual.
 O sistema permite consultar informações da loja diretamente pelo terminal: preços, estoque, pedidos e itens por pedido. O banco de dados é criado e populado automaticamente na primeira execução, sem necessidade de configuração manual.
 
 ### Tecnologias
